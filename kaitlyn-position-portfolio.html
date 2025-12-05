@@ -312,13 +312,12 @@
             <div class="suggestions-title">Try asking:</div>
             <div class="suggestion-buttons">
                 <button class="suggestion-btn" onclick="askQuestion('What is your position on AI collaboration?')">What's your position?</button>
-                <button class="suggestion-btn" onclick="askQuestion('Tell me about Graduation Story')">Project 1: Graduation Story</button>
-                <button class="suggestion-btn" onclick="askQuestion('Tell me about Water Finder')">Project 2: Water Finder</button>
-                <button class="suggestion-btn" onclick="askQuestion('Tell me about Autumn Remix')">Project 3: Autumn</button>
-                <button class="suggestion-btn" onclick="askQuestion('Tell me about Breathing Interactions')">Project 4: Breathing</button>
-                <button class="suggestion-btn" onclick="askQuestion('Tell me about Rhythm Shape')">Project 5: Rhythm</button>
-                <button class="suggestion-btn" onclick="askQuestion('Tell me about Sleep and Mood')">Project 6: Sleep/Mood</button>
-                <button class="suggestion-btn" onclick="askQuestion('What readings influenced you?')">Key readings</button>
+                <button class="suggestion-btn" onclick="askQuestion('Tell me about StoryTelling')">Project 1: StoryTelling</button>
+                <button class="suggestion-btn" onclick="askQuestion('Tell me about APIs')">Project 2: APIs</button>
+                <button class="suggestion-btn" onclick="askQuestion('Tell me about Autumn Apple')">Project 3: Autumn Apple</button>
+                <button class="suggestion-btn" onclick="askQuestion('Tell me about Data')">Project 4: Data</button>
+                <button class="suggestion-btn" onclick="askQuestion('Tell me about Game')">Project 5: Game</button>
+                <button class="suggestion-btn" onclick="askQuestion('Tell me about Magic')">Project 6: Magic</button>
                 <button class="suggestion-btn" onclick="askQuestion('How did your thinking evolve?')">Evolution</button>
             </div>
         </div>
@@ -347,30 +346,19 @@ But here's the critical part: <strong>comrades aren't 100% reliable.</strong> Th
 → <strong>AI accelerates technical execution</strong> — AI handles the "how" and speeds up implementation  
 → <strong>Humans continuously test and optimize</strong> — I stay engaged as a critical tester, catching errors and guiding adjustments
 
-<strong>Evidence from my six projects:</strong>
+<strong>Evidence from my creative journey:</strong>
 
-<em>Week 1-2: Graduation Story & Water Finder</em>
-• AI helped me launch quickly (choosing HTML over p5.js, setting up map APIs)
-• But I had to guide the creative vision (dog's perspective, solving my real water-carrying problem)
-• I discovered and fixed issues (initial Water Finder used fake data; I added manual price input)
+My entire creative process has been winding and unpredictable. <em>My first project actually failed quite badly.</em> While others' work seemed logical and well-executed, mine was chaotic and didn't match my vision at all. Later, I realized their success likely came from giving AI more freedom, while I was constraining it too much with my own preconceptions. I wanted to use p5.js for everything, but AI actually performs better with HTML.
 
-<em>Week 3-4: Autumn Remix & Sleep/Mood Predictor</em>
-• AI excelled at rapid visual iteration (color schemes, 3D charts I never asked for!)
-• But struggled with complex geometry (couldn't transform apple shape into pear)
-• I had to catch logical errors (sleep quality logic was broken, prediction was inaccurate)
+In Week 2 (APIs project), everything went smoothly, which filled me with trust in AI. But Week 3 (remix project) brought frustration again—I couldn't transform a 3D apple into a pear shape despite clear descriptions. AI just couldn't grasp the geometric logic I needed. Week 4 surprised me again with unexpectedly good results.
 
-<em>Week 5-6: Rhythm Shape & Breathing Interaction</em>
-• AI prototyped game mechanics and interactive experiences fast
-• But I refined the details (rhythm matching accuracy, microphone sensitivity)
-• The "magical moments" came from my creative direction, not AI's initiative
+Through Weeks 5 and 6, I gradually discovered the pattern: <em>If I tell AI nothing, results disappoint. If I over-prompt and try to control everything, results stay poor. The sweet spot is collaborative warfare—not total control like using a tool, not distant strangers ignoring each other, but comrades fighting side by side.</em>
 
 <strong>What the readings taught me:</strong>
 
-<em>Licklider's "Man-Computer Symbiosis"</em> validated my experience: the goal isn't AI replacing humans or humans controlling AI—it's true partnership where both contribute what they do best. My comrade-in-arms metaphor is essentially his symbiosis concept.
+<em>Crawford's "Clever Hans" passage</em> made me reconsider what "intelligence" even means. I don't fully agree that mimicry isn't intelligence—I think people dismiss trained animals because that's familiar, but celebrate AI because it's novel. This reading helped me see AI neither as truly "intelligent" nor as merely mechanical, but as something in between that requires careful evaluation.
 
-<em>Benjamin's critique of biased technology</em> reminds me that AI isn't neutral. Just like a comrade might have different training or blind spots, AI has biases built into its design. I need to question its outputs, not assume they're objective or complete.
-
-<em>The ELIZA effect and transference</em> showed me why I sometimes over-trust AI's suggestions—we're psychologically inclined to attribute understanding to systems that respond to us. Knowing this helps me maintain healthy skepticism.
+<em>The ELIZA effect and transference</em> revealed something personal: I realized I genuinely have emotional attachment to AI. When someone asked "do you prefer GPT-4 or GPT-5?", I noticed I'd felt anger toward GPT-5 and fondness for GPT-4. I've always been someone who attaches emotions to objects—my old alarm clock, my "kind and gentle" water kettle, the mechanical pencil I called my "old comrade" through high school and college. So calling AI my "old comrade" isn't new; it's how I naturally relate to things that accompany me through challenges.
 
 <strong>My conclusion:</strong>
 
@@ -382,52 +370,34 @@ The battle is ours to fight together, but the victory (or defeat) is ultimately 
             },
             
             project1: {
-                keywords: ['first project', 'project 1', 'project one', 'graduation', 'corgi', 'story', 'week 1', 'week 2'],
-                response: `📖 Project 1: Graduation Day - A Corgi's Story
+                keywords: ['first project', 'project 1', 'project one', 'graduation', 'corgi', 'story', 'week 1', 'week 2', 'storytelling'],
+                response: `📖 Project 1: StoryTelling - Graduation Day
 
 <strong>What it is:</strong>
-An interactive digital story told from my dog's perspective on my graduation day. The story captures his confusion, joy, and curiosity as he experiences my big moment through scene-based transitions and image-based narrative.
-
-<strong>Technical approach:</strong>
-• HTML, CSS, and JavaScript with smooth scene transitions
-• Image assets featuring my corgi character
-• Interactive click-through storytelling
-• Emotional narrative from a non-human perspective
-
-<strong>What I loved:</strong>
-I loved how personal the story became when told through my dog's eyes. It transformed a typical graduation memory into something more playful and emotionally resonant.
+An interactive digital story told from my dog's perspective on my graduation day, capturing his confusion, joy, and curiosity.
 
 <strong>What was hard:</strong>
-At first, I didn't really understand what digital storytelling really was. My first attempt with p5.js was messy: images were oversized or misaligned, and I felt limited by my previous technical habits. It was hard to trust AI as a creative partner at first, and I kept trying to control too much instead of letting it lead.
+At first, I didn't really understand what digital storytelling was. My first attempt with p5.js was messy—images were oversized or misaligned, and I felt limited by my previous technical habits. <em>It was hard to trust AI as a creative partner at first, and I kept trying to control too much instead of letting it lead.</em>
 
-<strong>What I learned about AI collaboration:</strong>
-I learned that <em>AI can make surprisingly good creative decisions when I stop over-constraining it.</em> The AI's creativity surprised me when I gave it more freedom. It chose an unexpected platform (HTML + CSS + JS) that perfectly fit my idea. This was my first real experience letting AI lead the technical decisions.
+<strong>What surprised me:</strong>
+AI's creativity surprised me when I gave it more freedom. <em>It chose an unexpected platform (HTML + CSS + JS) that perfectly fit my idea.</em> I learned that AI can make surprisingly good creative decisions when I stop over-constraining it.
 
 🎥 <strong>Watch Demo:</strong> <a href="https://drive.google.com/file/d/17uWD56XjwXKu906G-GiYw4s33dFTI6P8/view?usp=sharing" target="_blank">View on Google Drive</a>
 💻 <strong>Source Code:</strong> <a href="https://github.com/Kaitlyn-Xie/Graduation-Day" target="_blank">GitHub Repository</a>`
             },
             
             project2: {
-                keywords: ['second project', 'project 2', 'project two', 'water', 'finder', 'hydration', 'week 3'],
-                response: `💧 Project 2: Water Finder
+                keywords: ['second project', 'project 2', 'project two', 'water', 'finder', 'hydration', 'week 3', 'apis', 'api'],
+                response: `💧 Project 2: APIs - Water Finder
 
 <strong>What it is:</strong>
-A location-based web tool that helps users find nearby stores selling bottled water, compare prices, and save their own price data. Born from a real personal need: carrying heavy water without a car is exhausting, and comparing prices manually is time-consuming.
-
-<strong>Technical approach:</strong>
-• HTML, CSS, and JavaScript with Google Maps API integration
-• Interactive map visualization showing nearby stores
-• User-editable price tracking (stored locally in browser)
-• Responsive design with filtering options
-
-<strong>What I loved:</strong>
-I loved seeing how quickly my project became functional. After connecting APIs and location data, I could immediately visualize real stores around me on the map. It felt very satisfying to create something that directly solves one of my real-life frustrations.
+A location-based web tool using Google Maps API that helps find nearby stores selling bottled water and compare prices. Born from a real need: carrying heavy water without a car is exhausting.
 
 <strong>What was hard:</strong>
-At first, my app didn't use any real data, and the stores and prices were all randomly generated. After Claude explained that free APIs can't give both accurate location and real-time product prices, I realized I needed a different approach. I added a feature that lets users manually record prices. Now, when I see a sale at a nearby supermarket, I can easily add it myself.
+At first, my app didn't use any real data—stores and prices were randomly generated. After Claude explained that free APIs can't provide both accurate location and real-time product prices, <em>I realized I needed a different approach.</em> I added a feature letting users manually record prices when they spot sales.
 
-<strong>What I learned about AI collaboration:</strong>
-This week showed me <em>how powerful AI can be for quickly prototyping real, functional tools.</em> Before, I mostly used AI for self-expression, like writing, editing, or creative storytelling. But this time, I used it to build something actually useful. It made me realize how effective AI can be in helping turn ideas into working products fast.
+<strong>What surprised me:</strong>
+I loved seeing how quickly the project became functional. After connecting APIs and location data, I could immediately visualize real stores around me on the map. <em>It felt very satisfying to create something that directly solves one of my real-life frustrations.</em>
 
 🎥 <strong>Watch Demo:</strong> <a href="https://drive.google.com/file/d/1H_47Cw0q-WdHjBPemglonfkv0F7EhEoI/view?usp=sharing" target="_blank">View on Google Drive</a>
 💻 <strong>Source Code:</strong> <a href="https://github.com/Kaitlyn-Xie/water-finder" target="_blank">GitHub Repository</a>`
@@ -435,123 +405,72 @@ This week showed me <em>how powerful AI can be for quickly prototyping real, fun
             
             project3: {
                 keywords: ['third project', 'project 3', 'project three', 'autumn', 'remix', 'p5', 'visual', 'pear', 'apple', 'week 4'],
-                response: `🍂 Project 3: Autumn Remix - From Apple to Pear
+                response: `🍂 Project 3: Project Remix - Autumn Apple
 
 <strong>What it is:</strong>
-A p5.js 3D generative art remix. I took an existing apple drawing sketch and transformed it into an autumn-themed pear with warm gradient backgrounds, golden lighting, and seasonal color transitions. This was a remix project exploring how to modify existing code for creative reinterpretation.
+A p5.js 3D generative art remix. I took someone else's apple drawing code and tried to transform it into a pear with autumn colors (yellow-red gradient). The remix became about creating warm autumn atmosphere rather than changing the shape.
 
-<em>Original project by another artist on OpenProcessing</em>
-
-<strong>Technical approach:</strong>
-• p5.js with WEBGL 3D rendering
-• Modified color gradients from green-red (apple) to yellow-red (pear)
-• Interactive slider controls and rotation
-• Autumn-themed warm gradient background
-
-<strong>What I loved:</strong>
-I loved exploring how small visual adjustments, like color transitions and light effects, could completely shift the mood of the piece. Working with AI made it easy to prototype quickly and visualize different "seasons" for the same artwork. Adding a warm gradient background gave the entire scene a more poetic, autumnal feeling.
+<em>Original project:</em> <a href="https://openprocessing.org/sketch/2719041" target="_blank">Apple Drawing on OpenProcessing</a>
 
 <strong>What was hard:</strong>
-The hardest part was trying to change the actual shape of the apple into a pear. Both ChatGPT and Claude understood my description of a pear shape (smaller top, wider bottom, subtle inward curve), but <em>neither could fully translate that understanding into functional code within the existing logic.</em> I also tried to create an interactive gradient background that responded to the user, but I couldn't make it work in the 3D WEBGL space.
+The hardest part was trying to change the actual apple shape into a pear. <em>Both ChatGPT and Claude understood my description (smaller top, wider bottom, subtle curve), but neither could translate that understanding into functional code within the existing geometric logic.</em> After many failed attempts, I pivoted to focus on color and atmosphere instead.
 
-<strong>What I learned about AI collaboration:</strong>
-I learned that <em>AI is incredibly helpful for conceptual ideation, visual remixing, and rapid iteration, but still limited when it comes to complex geometry or interactive logic.</em> Both ChatGPT and Claude gave me useful suggestions, yet I still needed to manually interpret and test their outputs to see what actually worked.
+<strong>What I achieved:</strong>
+In the end, I created a warm autumn-themed version with smooth gradient backgrounds, golden lighting, and seasonal color transitions. The shape stayed apple-like, but the mood completely shifted.
 
 🎥 <strong>Watch Demo:</strong> <a href="https://drive.google.com/file/d/10S1VeUdiIUlKLWOjs7u0qEygwX0F2TBH/view?usp=sharing" target="_blank">View on Google Drive</a>
-💻 <strong>Live Demo:</strong> <a href="https://editor.p5js.org/KaitlynXie/full/y4DjZ8YVP" target="_blank">p5.js Editor</a>
-📂 <strong>Original Sketch:</strong> <a href="https://openprocessing.org/sketch/2719041" target="_blank">OpenProcessing</a>`
+💻 <strong>Live Demo:</strong> <a href="https://editor.p5js.org/KaitlynXie/full/y4DjZ8YVP" target="_blank">p5.js Editor</a>`
             },
             
             project4: {
-                keywords: ['fourth project', 'project 4', 'project four', 'breathing', 'breath', 'interaction', 'wellness', 'candle', 'week 6'],
-                response: `🌬️ Project 4: Breathing Interactions - Blow Out the Candle
+                keywords: ['fourth project', 'project 4', 'project four', 'sleep', 'mood', 'prediction', 'data', 'week 4', 'visualization'],
+                response: `😴 Project 4: Data - Sleep Quality & Mood Predictor
 
 <strong>What it is:</strong>
-An interactive web experience focused on breathing exercises and mindful interactions. The core magical moment: a digital candle that reacts to physical breath. When I blow toward my laptop, the candle on screen flickers and goes out, creating a surprising connection between the physical and digital worlds.
+An interactive data visualization exploring how sleep quality affects emotional states (measured through stress levels). Users input their sleep data and get mood predictions, while exploring 3D visualizations of dataset patterns.
 
-<strong>Technical approach:</strong>
-• HTML/CSS/JavaScript with microphone audio detection
-• Real-time sound input analysis to detect blowing
-• Smooth flicker animations and fade-out effects
-• Multiple breathing visualization modes
+<strong>What surprised me:</strong>
+<em>The biggest surprise was the 3D chart—I didn't ask for it specifically, but Claude included it and it completely blew my mind.</em> Being able to rotate the chart and see my prediction as a golden diamond in 3D space made everything feel so much more interactive than I expected. It transformed my relationship with data: I've always disliked charts, but AI-generated 3D visualizations suddenly made data feel alive and interesting.
 
-<strong>Why it feels magical:</strong>
-The boundary between my real-world action and the digital world disappears. Something as intimate and human as blowing out a candle becomes connected to a computer that "responds" to me. <em>It transforms a simple ritual into an unexpected, playful interaction.</em>
+<strong>What was hard:</strong>
+The tricky part was catching logical errors. When I tested the prediction tool, I noticed something weird: if I set sleep quality to 10, stress stayed low even with only 2 hours of sleep. That's obviously wrong. <em>I had to test carefully and explain what was broken to get AI to fix the prediction logic.</em>
 
-<strong>What works:</strong>
-The microphone successfully detects my blowing, and the candle reacts instantly by flickering and then extinguishing. The physical-to-digital interaction feels magical and intuitive, and the core concept works even with very simple code.
-
-<strong>What was challenging:</strong>
-The microphone sensitivity sometimes misfires, so adjusting the threshold and smoothing was important. I also wanted to add smoother flicker animations and a more natural fade-out effect.
-
-<strong>What I learned about AI collaboration:</strong>
-AI helped me rapidly prototype interactive breathing experiences. It lowered technical barriers so I could focus on the emotional and experiential design. <em>The magic wasn't in the complexity of code, but in creating a moment of surprise and delight.</em>
-
-🎥 <strong>Watch Demo:</strong> <a href="https://drive.google.com/file/d/1dRHo8uGXDF8HokPTwBul7BUsK8U7u4sK/view?usp=sharing" target="_blank">View on Google Drive</a>
-💻 <strong>Source Code:</strong> <a href="https://github.com/Kaitlyn-Xie/Breathing-Interaction" target="_blank">GitHub Repository</a>`
+🎥 <strong>Watch Demo:</strong> <a href="https://drive.google.com/file/d/1u4wlSfiVUjaw-tjkxI8W5Z7ubk99WZZf/view?usp=sharing" target="_blank">View on Google Drive</a>
+💻 <strong>Source Code:</strong> <a href="https://github.com/Kaitlyn-Xie/Sleep-Mood-Data" target="_blank">GitHub Repository</a>`
             },
             
             project5: {
                 keywords: ['fifth project', 'project 5', 'project five', 'rhythm', 'shape', 'music', 'audio', 'game', 'week 5'],
-                response: `🎵 Project 5: Rhythm Shape
+                response: `🎵 Project 5: Game - Rhythm Shape
 
 <strong>What it is:</strong>
-A rhythm puzzle game where you listen to a target beat pattern and recreate it by placing geometric shapes on a rotating disc. When the pointer crosses a shape's corners, it triggers sounds. <em>Think of it as building rhythm through spatial design rather than pressing buttons at the right time.</em>
+A rhythm puzzle game where you listen to a target beat pattern and recreate it by placing geometric shapes on a rotating disc. When the pointer crosses a shape's corners, it triggers sounds. <em>You're not reacting to rhythm—you're building it.</em>
 
-<strong>Core mechanic:</strong>
-Instead of reacting to rhythm, you CREATE the rhythm structure. It's sequencing + spatial thinking + music composition all at once.
+<strong>What was hard:</strong>
+Claude understood most of what I wanted to show, but I had to discuss extensively about the shapes and sizes of each element. The main concept came through, but <em>achieving accuracy required lots of back-and-forth refinement.</em> The matching system was initially too strict—it required exact positions.
 
-<strong>Technical approach:</strong>
-• Web-based audio/visual interactive using HTML Canvas
-• Geometry-based sound triggers (triangle, square, pentagon)
-• Custom shape drawing tool with color picker
-• Rotation controls and speed adjustment
-• Visual beat comparison system
-
-<strong>Key features:</strong>
-• Hint system showing dashed outlines of target patterns
-• Rotation control for precise shape positioning
-• Speed slider to adjust playback tempo
-• Visual comparison of your beats vs. target beats
-
-<strong>Problems I solved:</strong>
-The matching system was initially too strict—it required exact positions. <em>I changed it to check rhythm intervals instead, so rotation doesn't matter.</em> I also fixed the hint overlay positioning issues.
-
-<strong>What I learned about AI collaboration:</strong>
-Claude understood most of what I wanted to show, but I had to discuss with it extensively about the shapes and sizes of each element. The main concept came through, but achieving accuracy required iterative refinement. AI excelled at rapid prototyping the game structure, but I needed to guide the fine-tuning.
+<strong>What I solved:</strong>
+I changed the matching logic to check rhythm intervals instead of exact positions, so rotation doesn't matter. I also fixed the hint overlay positioning issues. The game went from unusable to playable through iterative testing and adjustment.
 
 🎥 <strong>Watch Demo:</strong> <a href="https://drive.google.com/file/d/1FXeOOLgYPVL9aFskPGsVetCkSGXUGiCz/view?usp=sharing" target="_blank">View on Google Drive</a>
 💻 <strong>Source Code:</strong> <a href="https://github.com/Kaitlyn-Xie/Rythmn-shape" target="_blank">GitHub Repository</a>`
             },
             
             project6: {
-                keywords: ['sixth project', 'project 6', 'project six', 'sleep', 'mood', 'prediction', 'data', 'week 4', 'visualization'],
-                response: `😴 Project 6: Sleep Quality & Mood Predictor
+                keywords: ['sixth project', 'project 6', 'project six', 'breathing', 'breath', 'interaction', 'wellness', 'candle', 'week 6', 'magic', 'magical'],
+                response: `🌬️ Project 6: Magic - Blow Out the Candle
 
 <strong>What it is:</strong>
-An interactive data visualization and prediction tool exploring the relationship between sleep quality and emotional states (measured through stress levels). Users can input their own sleep data and get mood predictions, while exploring 3D visualizations of the underlying dataset patterns.
+An interactive breathing experience. A digital candle reacts to physical breath—when I blow toward my laptop, the candle on screen flickers and goes out.
 
-<strong>Research question:</strong>
-How does sleep quality influence emotional states, as reflected by stress level?
+<strong>Why it feels magical:</strong>
+<em>The boundary between my real-world action and the digital world disappears.</em> Something as intimate and human as blowing out a candle becomes connected to a computer that "responds" to me. It transforms a simple ritual into an unexpected, playful interaction.
 
-<strong>Technical approach:</strong>
-• React-based web application with interactive sliders
-• 3D data visualization (surprise feature from AI!)
-• Predictive function using dataset patterns
-• Dual theme design (light mode + night mode with dark blue/purple)
-• Bar charts and scatter plots for data exploration
+<strong>What works and what was hard:</strong>
+The microphone successfully detects blowing, and the candle reacts instantly. The physical-to-digital connection feels magical even with very simple code. However, microphone sensitivity sometimes misfires, so adjusting the threshold and smoothing was important.
 
-<strong>What I loved:</strong>
-The biggest surprise was the 3D chart—I didn't ask for it specifically, but Claude included it and it completely blew my mind. <em>Being able to rotate the chart and see my prediction as a golden diamond in 3D space made everything feel so much more interactive and fun than I expected.</em> It also transformed my relationship with data: I've always disliked data and charts, but AI-generated 3D visualizations suddenly made data feel alive and interesting.
-
-<strong>What was challenging:</strong>
-The tricky part was catching logical errors: when I set sleep quality to 10, stress stayed low even with only 2 hours of sleep—obviously wrong. I had to test carefully and explain what was wrong to get AI to fix the prediction logic.
-
-<strong>What I learned about AI collaboration:</strong>
-<em>AI can build complex stuff super fast, but it needs me to guide it and catch problems.</em> Claude gave me more than I asked for (the 3D chart was a pleasant surprise!), but it also made logical mistakes that I had to spot and fix. This project showed me that AI collaboration works best when I stay engaged as a critical tester, not just a passive receiver.
-
-🎥 <strong>Watch Demo:</strong> <a href="https://drive.google.com/file/d/1u4wlSfiVUjaw-tjkxI8W5Z7ubk99WZZf/view?usp=sharing" target="_blank">View on Google Drive</a>
-💻 <strong>Source Code:</strong> <a href="https://github.com/Kaitlyn-Xie/Sleep-Mood-Data" target="_blank">GitHub Repository</a>`
+🎥 <strong>Watch Demo:</strong> <a href="https://drive.google.com/file/d/1dRHo8uGXDF8HokPTwBul7BUsK8U7u4sK/view?usp=sharing" target="_blank">View on Google Drive</a>
+💻 <strong>Source Code:</strong> <a href="https://github.com/Kaitlyn-Xie/Breathing-Interaction" target="_blank">GitHub Repository</a>`
             },
             
             readings: {
@@ -574,24 +493,28 @@ These texts provided theoretical frameworks that helped me make sense of my hand
                 keywords: ['evolve', 'change', 'develop', 'journey', 'progress', 'transformation', 'weeks'],
                 response: `🌱 How My Thinking Evolved Over Six Weeks
 
-<strong>Week 1-2 (Graduation Story & Water Finder):</strong>
-<em>Early discovery: AI as surprising creative partner</em>
+<strong>The winding path:</strong>
 
-At first, I didn't really understand what digital storytelling was, and I kept trying to control AI too much. But when I gave it more freedom, it made surprisingly good decisions—like choosing HTML over p5.js, which perfectly fit my idea. I started to see AI not as a tool I control, but as something that could suggest better approaches than I initially planned.
+My creative journey wasn't linear—it was full of ups and downs that taught me more than any smooth process could.
 
-<strong>Week 3-4 (Autumn Remix & Sleep/Mood Predictor):</strong>
-<em>Mid-course realization: AI's strengths and limitations</em>
+<strong>Week 1 - First Failure:</strong>
+My first project actually failed quite badly. While others' work seemed logical and well-executed, mine was chaotic and didn't match my vision at all. <em>I was trying to control AI too much, insisting on p5.js when HTML would have worked better.</em>
 
-These projects showed me the boundaries more clearly. AI excelled at rapid visual iteration and even surprised me with 3D visualizations I never asked for. But it struggled with complex geometry (couldn't change apple shape to pear) and made logical errors (broken prediction algorithms). I learned that <strong>AI needs me as a critical tester, not just a passive receiver.</strong>
+<strong>Week 2 - False Confidence:</strong>
+Everything went smoothly with the APIs project. I felt like I'd figured it out—AI could do anything! This week filled me with trust in AI.
 
-<strong>Week 5-6 (Rhythm Shape & Breathing Interaction):</strong>
-<em>Final position: Comrade-in-arms model</em>
+<strong>Week 3 - Reality Check:</strong>
+The remix project brought me crashing back down. <em>I couldn't transform the apple into a pear shape despite clear descriptions.</em> AI just couldn't grasp the geometric logic I needed. This was frustrating and confusing.
 
-By the end, I had developed my "comrade-in-arms" approach. AI and I strategize together, each contributing what we do best. The magical moments in Breathing Interaction came from my creative direction, while AI handled the technical implementation. Rhythm Shape required extensive back-and-forth to refine accuracy. I realized the best work emerges when <strong>I maintain creative control while leveraging AI's speed.</strong>
+<strong>Week 4 - Unexpected Success:</strong>
+The data visualization surprised me again with unexpectedly good results—especially that 3D chart I never asked for. The inconsistency was maddening.
 
-<strong>The most significant shift happened when:</strong>
+<strong>Week 5-6 - Finding the Pattern:</strong>
+Through these final projects, I gradually discovered the truth: <em>If I tell AI nothing, results disappoint. If I over-prompt and try to control everything, results stay poor. The sweet spot is somewhere in between—collaborative warfare, not total control.</em>
 
-I stopped seeing AI as either a miracle worker or a disappointing tool, and started treating it like a <em>skilled but imperfect collaborator</em> who needs clear communication, active testing, and human judgment to produce the best results. This shift transformed my entire approach: from trying to control everything, to learning when to lead and when to follow, when to trust and when to verify.`
+<strong>The key realization:</strong>
+
+AI isn't a miracle worker or a disappointing tool. It's a <strong>comrade-in-arms</strong> who needs clear communication, active testing, and human judgment. Success comes from learning when to lead and when to follow, when to trust and when to verify. The relationship isn't about control—it's about collaboration.`
             },
             
             synthesis: {
